@@ -1,3 +1,26 @@
+//hey this is invisible
+
+/*
+
+multi-line comment here
+
+*/
+
+
+var doCoolStuff = function () {
+	var currentClassName = document.getElementById('cool').className;
+	//changing class name
+
+	if (currentClassName == 'cool') {
+
+	document.getElementById('cool').className = 'cool red';
+
+	} else {
+	document.getElementById('cool').className = 'cool';	
+
+	}
+}
+
 var myName = function (name) {
 	alert('Your name is ' + name);
 }
