@@ -1,12 +1,8 @@
-//hey this is invisible
+setTimeout(function () {
+	location.href = 'rocket.html'
+}, 2000);
 
-/*
-
-multi-line comment here
-
-*/
-
-
+// practice with html + 
 var doCoolStuff = function () {
 	var currentClassName = document.getElementById('cool').className;
 	//changing class name
@@ -20,11 +16,12 @@ var doCoolStuff = function () {
 
 	}
 }
-
+// practice with fucntions
 var myName = function (name) {
 	alert('Your name is ' + name);
 }
 
+// practice
 var car = {
 			make: 'VW',
 			type: 'Polo',
