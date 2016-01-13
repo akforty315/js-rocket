@@ -3,7 +3,7 @@ body{
 }
 
 .left{
-	background-color: violet;
+	background-color: #3399FF;
 	position: fixed;
 	width: 50%;
 	height: 100%;
@@ -25,14 +25,27 @@ a.button{
 	text-transform: uppercase;
 	text-decoration: none;
 	border-radius: 10px;
+	font-weight: bold;
 
 }
+
 
 a:hover{
-	color: red;
-	transition: color 300ms;
-	text-weight: bold;
+	color: #CC0000;
+	transition: color 400ms;
 }
+
+a.link{
+	text-decoration: none;
+	font-weight: bold;
+	color: #990000;
+	text-transform: uppercase;
+}
+
+a.link:hover{
+	color: white;
+}
+
 
 .right{
 	background-color: aliceblue;
